@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  =================================
+  Body
+  =================================
+*/
+
+body {
+    background-image: url("../images/scribble_light.png")
+}
+
+/*
+  =================================
+  Primary header
+  =================================
+*/
+
+.logo {
+  float: left;
+  font-size: 48px;
+  font-weight: 200;
+  letter-spacing: .5px;
+  line-height: 44px;
+  margin: 0% 0% 0% 17%;
+  padding: 22px 60px;
+  text-transform: capitalize;
+  color: rgb(252, 253, 253);
+  background:teal
+}
+.primary-nav {
+    float: right;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 3% 8% 0% 0%;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+.primary-nav ul {
+    list-style: none;
+    display: block;
+
+    
+}
+.primary-nav li {
+    display: inline;
+    margin-right: 5px;
+    text-decoration: none;
+}
+ul li a:hover {
+  background-color: gray;
+  transition: 1.5s;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+/*
+  ===============================
+  About
+  ===============================
+*/
+
+.about {
+  clear: both;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    background: white;
+    margin: 10px 150px;
+}
+.profile {
+  float: left;
+  height: 200px;
+  width: 150px;
+  margin: 0% 2% 0% 10%;
+}
+h2 {
+  clear: both;
+  font-size: 50px;
+  color: teal;
+  text-align: left;
+  padding: 22px 80px 22px 80px;
+}
+p {
+    color: rgb(142, 143, 145);
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: left;
+}
+
+/*
+=============================
+Contact
+=============================
+*/
+
+.contact {
+  clear: both;
+    text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  margin: 15px 75px 150px 75px;
+  padding: 22px 80px 66px 80px;
+  background-color: white;
+}
+.form {
+  clear: both;
+ margin: 50pxpx 150px;
+ background-color: white;
+}
+/*
+============================
+Footer
+============================
+*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+.primary-footer {
+  height: 50px;
+  text-align: center;
+  background-color: teal;
+}
+
+h4 {
+  padding-top: 16px;
+}
+
+/*
+========================
+Portfolio
+========================
+*/
+
+.examples {
+  background-color: white;
+  margin: 20px 175px 100px 175px;
+}
+.example1 {
+  margin: 5px 100px 5px 5px;
+  float: left;
+  position: relative;
+}
+.example2 {
+  margin: 5px;
+  position: relative;
+  float: left;
+}
+.example3 {
+  position: relative;
+  float: left;
+}
+.example4 {
+  position: relative;
+  margin: 5px;
+  float: left;
+}
+.example5 {
+  margin: 5px 175px;
+  float: left;
+}
+.e1 {
+  position: absolute;
+  right: 0px;
+  bottom: -75px;
+  color: black;
+}
+@media screen and (max-width: 980px) {
+  .about {
+    margin: auto;
+  }
+
+.projects {
+  margin: auto;
+  float: none;
+}
+
+.example1 {
+float: none;
+}
+.example2 {
+  float: none;
+}
+.example3 {
+  float: none;
+}
+.example4 {
+  float: none;
+}
+.example5 {
+  float: none;
+}
+.contact {
+  margin: auto;
+}
+.logo {
+  margin: auto;
+}
+.primary-nav {
+  margin auto:
+}
+  
+}
