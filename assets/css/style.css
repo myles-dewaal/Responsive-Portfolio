@@ -256,5 +256,83 @@ float: none;
 .primary-nav {
   margin auto:
 }
-  
+.profile {
+  float: none;
 }
+  }
+  @media screen and (max-width: 768px) {
+    .about {
+      margin: auto;
+    }
+  
+  .projects {
+    margin: auto;
+    float: none;
+  }
+  
+  .example1 {
+  float: none;
+  }
+  .example2 {
+    float: none;
+  }
+  .example3 {
+    float: none;
+  }
+  .example4 {
+    float: none;
+  }
+  .example5 {
+    float: none;
+  }
+  .contact {
+    margin: auto;
+  }
+  .logo {
+    margin: auto;
+  }
+  .primary-nav {
+    margin auto:
+  }
+  .profile {
+    float: none;
+  }
+    }
+    @media screen and (max-width: 640px) {
+      .about {
+        margin: auto;
+      }
+    
+    .projects {
+      margin: auto;
+      float: none;
+    }
+    
+    .example1 {
+    float: none;
+    }
+    .example2 {
+      float: none;
+    }
+    .example3 {
+      float: none;
+    }
+    .example4 {
+      float: none;
+    }
+    .example5 {
+      float: none;
+    }
+    .contact {
+      margin: auto;
+    }
+    .logo {
+      margin: auto;
+    }
+    .primary-nav {
+      margin auto:
+    }
+    .profile {
+      float: none;
+    }
+      }
